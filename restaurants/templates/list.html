@@ -10,7 +10,7 @@
     <div class="card my-card">
       <div class="card-body">
         {%if restaurant.logo %}
-        <img src="{{restaurant.logo.url}}">
+        <img src="{{restaurant.logo.url}}" width="150px">
         {% endif %}
         <h5 class="card-title">{{restaurant.name}}</h5>
         <p class="card-text">{{restaurant.description|truncatechars:25}}</p>
